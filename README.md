@@ -48,7 +48,7 @@ $ rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.wor
 ```
 
 Now then visualize this map in your system:
-![Immagine](![Schermata da 2021-11-27 12-39-46](https://user-images.githubusercontent.com/80394968/143679740-9b01a70c-ea86-4dba-8778-7032ccccf4c2.png))
+![Schermata da 2021-11-27 12-39-46](https://user-images.githubusercontent.com/80394968/143679740-9b01a70c-ea86-4dba-8778-7032ccccf4c2.png)
 At this point you have to open a new terminal always in root folder and update again setup. bash file and start the first node :
 ```
 $ source devel/setup.bash   
