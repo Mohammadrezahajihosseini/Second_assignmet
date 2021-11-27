@@ -27,6 +27,6 @@ $ rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.wor
 
 At this point you have to open a new terminal always in root folder and update again setup. bash file and start the first node : 
 
-$ source devel/setup.bash
+$ source devel/setup.bash \n
 $ rosrun second_assignment controller_node
 
