@@ -54,5 +54,11 @@ At this point you have to open a new terminal always in root folder and update a
 $ source devel/setup.bash   
 $ rosrun second_assignment controller_node  
 ```
-The first node practically circulates robots inside the circuit, without hitting against edges
+The first node practically circulates robots inside the circuit, without hitting against edges.  
+Now you can start the reset node as it changes the speed of the robot and resets the position of the robot, but first you have to open a new terminal with the same addresses said for controller node and do the following commands :  
+```
+$ source devel/setup.bash
+$ rosrun second_assignment command_node
+```
+
 
