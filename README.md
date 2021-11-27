@@ -14,7 +14,7 @@ This assignment was done by prof._Carmine Tommaso Recchiuto_ in course Reasearch
 Installing and running
 ----------------------
 After installing ros on the operating system(in my case operating system is a linux), you can proceed the following steps:
-1. First step create my own workspace in my system : mkdir –p my_ros_ws/src
+1. First step create YOUR own workspace in my system : mkdir –p my_ros_ws/src
 2. Enter new directory created : cd –p my_ros_ws/src
 3. Download in zip format or use fork for your repositories or use :
   git clone https://github.com/Mohammadrezahajihosseini/Second_assignmet/
