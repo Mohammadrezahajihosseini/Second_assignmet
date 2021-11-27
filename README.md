@@ -46,6 +46,8 @@ After installing ros on the operating system(in my case operating system is a li
 ```
 $ rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.world
 ```
+Now then visualize this map in your system:
+
 At this point you have to open a new terminal always in root folder and update again setup. bash file and start the first node :
 ```
 $ source devel/setup.bash   
