@@ -80,6 +80,6 @@ target_link_libraries (name_node
 If there are more than one C++ file to be executed together, as in this case (reset.cpp), you have to do the same procedure for the new files.  
 Inside your workspace you can also find a file called __pakage.xlm__, this file is useful in case you need to add any package or some servies, for more information on this part you can refer to the site: (http://wiki.ros.org/catkin/package.xml)
 
-Flowchat
+Flowchart
 ----------------------
 ![Immagine 2021-11-27 200856](https://user-images.githubusercontent.com/80394968/143719257-93104cd7-5819-4cbd-9fa0-b10b0e943597.png)
