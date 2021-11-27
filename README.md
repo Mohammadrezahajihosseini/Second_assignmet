@@ -10,3 +10,10 @@ Materials and Methods
 =========================
 
 This assignment was done by prof._Carmine Tommaso Recchiuto_ in course Reasearch track 1. All materials related to this course can be found on the website (https://2021.aulaweb.unige.it/course/view.php?id=4729) and to learn more about ros and learn from scratch check the website (http://wiki.ros.org/Documentation). The implemented method explained in the flowchat part and for startup part can refer to part Installing and running.
+
+Installing and running
+----------------------
+After installing ros on the operating system(in my case operating system is a linux), you can proceed the following steps:
+1. First step create my own workspace in my system : mkdir –p my_ros_ws/src
+2. Enter new directory created : cd –p my_ros_ws/src
+3. Download in zip format or use fork for your repositories or use : git clone 
