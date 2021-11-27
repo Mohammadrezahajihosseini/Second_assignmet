@@ -17,13 +17,13 @@ After installing ros on the operating system(in my case operating system is a li
 1. First step create your own workspace in my system : $ mkdir –p/my_ros_ws/src
 2. Enter new directory created : $ cd –p/my_ros_ws/src
 3. Download in zip format or use fork for your repositories or use :
- $ git clone https://github.com/Mohammadrezahajihosseini/Second_assignmet/
+$ git clone https://github.com/Mohammadrezahajihosseini/Second_assignmet/
 4. Back in root file : $ cd ..
 5. Use : $ catkin_make (Catkin is the official build system of ROS and the successor to the original ROS build system, rosbuild)
 6. Update setup.bash files to know new content : $ source devel/setup.bash
 7. Use : $ roscore & (is the first thing you should run when using ROS).
 8. Open the map where robots circulate :  
-  $ rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.world
+$ rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.world
 At this point you have to open a new terminal always in root folder and update again setup. bash file and start the first node : 
 $ source devel/setup.bash
 $ rosrun second_assignment controller_node
