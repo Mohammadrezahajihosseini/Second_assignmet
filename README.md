@@ -31,8 +31,10 @@ After installing ros on the operating system(in my case operating system is a li
 8. Open the map where robots circulate :    
  $ rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.world
 
-At this point you have to open a new terminal always in root folder and update again setup. bash file and start the first node :   
+At this point you have to open a new terminal always in root folder and update again setup. bash file and start the first node :
+```
 $ source devel/setup.bash   
 $ rosrun second_assignment controller_node  
+```
 The first node practically circulates robots inside the circuit, without hitting against edges
 
