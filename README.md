@@ -67,7 +67,7 @@ $rostopic list  //Check all Topic
 $rosservis list //Check all Servies
 $rosnode list   //Check all Node
 ```
-To run a program in C++ you have to modify the CMakelists.txt and uncomment, line where  is written:
+To run a program in C++ you have to modify the __CMakelists.txt__ and uncomment, line where  is written:
 ```
 add_executable (name_node src/name_file.cpp)
 ```
@@ -77,6 +77,7 @@ target_link_libraries (name_node
      ${catkin_LIBRARIES}
  )
  ```
-If there are more than one C++ file to be executed together, as in this case (reset.cpp), you have to do the same procedure for the new files
+If there are more than one C++ file to be executed together, as in this case (reset.cpp), you have to do the same procedure for the new files.  
+Inside your workspace you can also find a file called __pakage.xlm__, this file is useful in case you need to add any package or some servies, for more information on this part you can refer to the site: (http://wiki.ros.org/catkin/package.xml)
 
 
