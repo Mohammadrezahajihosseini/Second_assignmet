@@ -24,6 +24,7 @@ $ git clone https://github.com/Mohammadrezahajihosseini/Second_assignmet/
 7. Use : $ roscore & (is the first thing you should run when using ROS).
 8. Open the map where robots circulate :  
 $ rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.world
+
 At this point you have to open a new terminal always in root folder and update again setup. bash file and start the first node : 
 $ source devel/setup.bash
 $ rosrun second_assignment controller_node
