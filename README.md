@@ -60,5 +60,23 @@ Now you can start the reset node as it changes the speed of the robot and resets
 $ source devel/setup.bash
 $ rosrun second_assignment command_node
 ```
+Now activated command_node which then change speed and reset robot position.  
+In case if you are interested to know various information you can use the following commands:
+```
+$rostopic list  //Check all Topic
+$rosservis list //Check all Servies
+$rosnode list   //Check all Node
+```
+To run a program in C++ you have to modify the CMakelists.txt and uncomment, line where  is written:
+```
+add_executable (name_node src/name_file.cpp)
+```
+Plus uncomment also, line where is written:
+```
+target_link_libraries (name_node
+     ${catkin_LIBRARIES}
+ )
+ ```
+If there are more than one C++ file to be executed together, as in this case (reset.cpp), you have to do the same procedure for the new files
 
 
