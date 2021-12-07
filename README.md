@@ -58,7 +58,7 @@ The first node practically circulates robots inside the circuit, without hitting
 Now you can start the reset node as it changes the speed of the robot and resets the position of the robot, but first you have to open a new terminal with the same addresses said for controller node and do the following commands :  
 ```
 $ source devel/setup.bash
-$ rosrun second_assignment command_node
+$ rosrun second_assignment reset_node
 ```
 Now activated command_node which then change speed and reset robot position.  
 In case if you are interested to know various information you can use the following commands:
